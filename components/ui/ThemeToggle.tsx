@@ -13,14 +13,10 @@ const labels: Record<ThemeId, string> = {
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme();
 
-  if (process.env.NODE_ENV !== "development") {
-    return null;
-  }
-
   return (
     <div
       className="fixed bottom-4 left-4 z-50 flex items-center gap-1 rounded-full border border-border glass-panel p-1 shadow-card"
-      aria-label="Theme switcher (development only)"
+      aria-label="Theme switcher"
     >
       <Palette className="ml-2 h-3.5 w-3.5 shrink-0 text-text-muted" aria-hidden />
       {THEME_IDS.map((id) => (
