@@ -28,7 +28,7 @@ export function MenuItemImage({
   priority = false,
   compact = false,
 }: MenuItemImageProps) {
-  const visual = getCategoryVisual(categoryId, categoryTitleAr);
+  const visual = getCategoryVisual(categoryId);
   const Icon = visual.icon;
   const displayName = nameAr.trim() || nameEn.trim();
   const watermark = displayName.charAt(0) || "?";

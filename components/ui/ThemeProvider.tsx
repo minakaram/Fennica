@@ -22,7 +22,11 @@ function readStoredTheme(): ThemeId {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = useState<ThemeId>(readThemeFromDocument);
+  const [theme, setThemeState] = useState<ThemeId>(DEFAULT_THEME);
+
+  useEffect(() => {
+    setThemeState(readThemeFromDocument());
+  }, []);
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);

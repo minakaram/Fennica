@@ -2,9 +2,7 @@
 
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { useTheme } from "@/components/ui/ThemeProvider";
 import { GradientBlob } from "@/components/ui/GradientBlob";
-import { themes } from "@/lib/theme";
 import type { Restaurant } from "@/lib/types";
 
 interface MenuHeroProps {
@@ -14,8 +12,6 @@ interface MenuHeroProps {
 export function MenuHero({ restaurant }: MenuHeroProps) {
   const ref = useRef<HTMLElement>(null);
   const reducedMotion = useReducedMotion();
-  const { theme } = useTheme();
-  const isLight = themes[theme].mode === "light";
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -32,17 +28,15 @@ export function MenuHero({ restaurant }: MenuHeroProps) {
     >
       <div className="hero-wash pointer-events-none absolute inset-0" aria-hidden />
 
-      {!isLight && (
-        <>
-          <GradientBlob className="-top-20 -left-20" color="var(--theme-accent-from)" delay={0} />
-          <GradientBlob
-            className="-right-16 top-10"
-            color="var(--theme-accent-to)"
-            size={280}
-            delay={4}
-          />
-        </>
-      )}
+      <div className="hero-blobs pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
+        <GradientBlob className="-top-20 -left-20" color="var(--theme-accent-from)" delay={0} />
+        <GradientBlob
+          className="-right-16 top-10"
+          color="var(--theme-accent-to)"
+          size={280}
+          delay={4}
+        />
+      </div>
 
       <motion.div style={{ y, opacity }} className="relative mx-auto max-w-6xl">
         <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-bg-elevated px-4 py-1.5 shadow-card">

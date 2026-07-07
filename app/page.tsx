@@ -16,10 +16,18 @@
  */
 
 import { MenuPage } from "@/components/menu/MenuPage";
+import { SplashGate } from "@/components/splash/SplashGate";
 import { getMenuData } from "@/lib/menu-data";
 
 export default function Home() {
   const menu = getMenuData();
 
-  return <MenuPage menu={menu} />;
+  return (
+    <SplashGate
+      restaurantName={menu.restaurant.name}
+      tagline={menu.restaurant.tagline}
+    >
+      <MenuPage menu={menu} />
+    </SplashGate>
+  );
 }
