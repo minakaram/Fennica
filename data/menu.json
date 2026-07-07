@@ -1,0 +1,179 @@
+{
+  "restaurant": {
+    "name": "Fennica Cafe",
+    "tagline": "Life from First Taste",
+    "note": "10% service charge added"
+  },
+  "categories": [
+    {
+      "id": "meals-salads",
+      "name_en": "Meals & Salads",
+      "name_ar": "وجبات وسلطات",
+      "items": [
+        { "id": "zenger-meal", "name_en": "Zenger Meal", "name_ar": "وجبة زنجر", "description_en": "3 zenger pieces - fries - bread - salad", "description_ar": "٣ قطع زنجر - بطاطس - عيش - سلطة", "price_min": 135, "price_max": null, "image": "/menu/meals-salads/zenger-meal.jpg", "rating": null, "review_count": 0, "favorites_count": 3 },
+        { "id": "crispy-meal", "name_en": "Crispy Meal", "name_ar": "وجبة كريسبي", "description_en": "3 crispy pieces - fries - bread - salad", "description_ar": "٣ قطع كريسبي - بطاطس - عيش - سلطة", "price_min": 135, "price_max": null, "image": "/menu/meals-salads/crespy-meal.webp", "rating": 4.8, "review_count": 12, "favorites_count": 7 },
+        { "id": "kids-meal", "name_en": "Kids Meal", "name_ar": "وجبة اطفال", "description_en": "Mini burger sandwich - fries - juice", "description_ar": "ساندوتش برجر - بطاطس - عصير", "price_min": 115, "price_max": null, "image": "/menu/meals-salads/children-meal.webp", "rating": null, "review_count": 0, "favorites_count": 2 },
+        { "id": "caesar-salad", "name_en": "Chicken Caesar Salad", "name_ar": "سلطة سيزر دجاج", "description_en": "Grilled chicken, romaine, parmesan, caesar dressing", "description_ar": "دجاج مشوي - خس روماني - جبنة بارميزان", "price_min": 95, "price_max": 135, "image": "/menu/meals-salads/caesar-salad.webp", "rating": 4.6, "review_count": 8, "favorites_count": 5 },
+        { "id": "grilled-chicken", "name_en": "Grilled Chicken Plate", "name_ar": "طبق فراخ مشوية", "description_en": "Half chicken - rice - grilled vegetables", "description_ar": "نصف فرخة - أرز - خضار مشوية", "price_min": 145, "price_max": null, "image": "/menu/meals-salads/grilled-chicken-meal.jpg", "rating": null, "review_count": 0, "favorites_count": 6 },
+        { "id": "fattoush", "name_en": "Fattoush Salad", "name_ar": "سلطة فتوش", "description_en": "Mixed greens, crispy bread, pomegranate dressing", "description_ar": "خضار مشكلة - خبز مقرمش - دبس رمان", "price_min": 75, "price_max": null, "image": "/menu/meals-salads/Fattoush-Salad.webp", "rating": null, "review_count": 0, "favorites_count": 4 }
+      ]
+    },
+    {
+      "id": "grills-mashawi",
+      "name_en": "Grills & Mashawi",
+      "name_ar": "مشويات",
+      "items": [
+        { "id": "mixed-grill", "name_en": "Mixed Grill Platter", "name_ar": "مشويات مشكلة", "description_en": "Kofta, shish tawook, kebab - rice - salad", "description_ar": "كفتة - شيش طاووق - كباب - أرز - سلطة", "price_min": 320, "price_max": null, "image": "/menu/grills-mashawi/Mix_Grilled_Platter.webp", "rating": 4.9, "review_count": 21, "favorites_count": 18 },
+        { "id": "kofta", "name_en": "Kofta Skewers", "name_ar": "كفتة مشوية", "description_en": "Charcoal-grilled minced meat skewers", "description_ar": "كفتة لحم مشوية على الفحم", "price_min": 190, "price_max": null, "image": "/menu/grills-mashawi/kofta-skewers.jpeg", "rating": null, "review_count": 0, "favorites_count": 4 },
+        { "id": "shish-tawook", "name_en": "Shish Tawook", "name_ar": "شيش طاووق", "description_en": "Marinated chicken skewers, garlic sauce", "description_ar": "دجاج متبل - صلصة ثوم", "price_min": 180, "price_max": null, "image": "/menu/grills-mashawi/shish%20-tawook.jpg", "rating": 4.7, "review_count": 15, "favorites_count": 9 },
+        { "id": "beef-kebab", "name_en": "Beef Kebab", "name_ar": "كباب لحم", "description_en": "Charcoal-grilled beef cubes", "description_ar": "مكعبات لحم مشوية على الفحم", "price_min": 210, "price_max": null, "image": "/menu/grills-mashawi/beef-kebab.jpg", "rating": null, "review_count": 0, "favorites_count": 5 },
+        { "id": "lamb-chops", "name_en": "Lamb Chops", "name_ar": "ريش ضاني", "description_en": "Grilled lamb chops with herbs", "description_ar": "ريش ضاني مشوية بالأعشاب", "price_min": 350, "price_max": null, "image": "/menu/grills-mashawi/lamb-chops.jpg", "rating": 4.5, "review_count": 7, "favorites_count": 11 }
+      ]
+    },
+    {
+      "id": "oriental-food",
+      "name_en": "Oriental Food",
+      "name_ar": "أكلات شرقية",
+      "items": [
+        { "id": "koshari", "name_en": "Koshari", "name_ar": "كشري", "description_en": "Rice, lentils, pasta, crispy onions, tomato sauce", "description_ar": "أرز - عدس - مكرونة - بصل مقرمش", "price_min": 65, "price_max": 95, "image": "/menu/oriental-food/koshari.jpg", "rating": 4.9, "review_count": 30, "favorites_count": 22 },
+        { "id": "molokhia", "name_en": "Molokhia with Rabbit", "name_ar": "ملوخية بالأرانب", "description_en": "Traditional Egyptian jute leaf stew", "description_ar": "ملوخية مصرية أصلية", "price_min": 210, "price_max": null, "image": "/menu/oriental-food/molokhia-with-rabbit.webp", "rating": null, "review_count": 0, "favorites_count": 6 },
+        { "id": "hawawshi", "name_en": "Hawawshi", "name_ar": "حواوشي", "description_en": "Spiced minced meat baked in Egyptian bread", "description_ar": "لحم مفروم متبل في عيش بلدي", "price_min": 110, "price_max": null, "image": "/menu/oriental-food/Hawawshi.webp", "rating": 4.5, "review_count": 9, "favorites_count": 11 },
+        { "id": "mahshi", "name_en": "Stuffed Vine Leaves", "name_ar": "محشي ورق عنب", "description_en": "Rice-stuffed grape leaves", "description_ar": "ورق عنب محشي أرز", "price_min": 85, "price_max": null, "image": "/menu/oriental-food/stuffed-vine-leaves.png", "rating": null, "review_count": 0, "favorites_count": 3 },
+        { "id": "foul", "name_en": "Foul Medames", "name_ar": "فول مدمس", "description_en": "Slow-cooked fava beans, olive oil, cumin", "description_ar": "فول بلدي - زيت زيتون - كمون", "price_min": 45, "price_max": null, "image": "/menu/oriental-food/foul-medames.webp", "rating": null, "review_count": 0, "favorites_count": 8 }
+      ]
+    },
+    {
+      "id": "pizza-pasta",
+      "name_en": "Pizza & Pasta",
+      "name_ar": "بيتزا ومكرونة",
+      "items": [
+        { "id": "margherita", "name_en": "Margherita Pizza", "name_ar": "بيتزا مارجريتا", "description_en": "Tomato, mozzarella, basil", "description_ar": "طماطم - موزاريلا - ريحان", "price_min": 145, "price_max": 195, "image": "/menu/pizza/margherita-pizza.jpg", "rating": null, "review_count": 0, "favorites_count": 3 },
+        { "id": "pepperoni", "name_en": "Pepperoni Pizza", "name_ar": "بيتزا بيبروني", "description_en": "Spicy pepperoni, mozzarella, tomato sauce", "description_ar": "بيبروني - موزاريلا - صلصة طماطم", "price_min": 165, "price_max": 210, "image": "/menu/pizza/pepperoni-pizza.jpg", "rating": 4.3, "review_count": 5, "favorites_count": 6 },
+        { "id": "alfredo", "name_en": "Chicken Alfredo", "name_ar": "الفريدو بالدجاج", "description_en": "Creamy alfredo pasta with grilled chicken", "description_ar": "مكرونة كريمة الفريدو بالدجاج", "price_min": 160, "price_max": null, "image": "/menu/pizza/chicken-alfredo.webp", "rating": 4.4, "review_count": 6, "favorites_count": 4 },
+        { "id": "arrabiata", "name_en": "Penne Arrabiata", "name_ar": "مكرونة ارابياتا", "description_en": "Spicy tomato sauce, garlic, chili", "description_ar": "صلصة طماطم حارة - ثوم", "price_min": 120, "price_max": null, "image": "/menu/pizza/penne-arrabiata.jpg", "rating": null, "review_count": 0, "favorites_count": 2 }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "name_en": "Sandwiches",
+      "name_ar": "ساندوتشات",
+      "items": [
+        { "id": "zenger-sw", "name_en": "Zenger", "name_ar": "زنجر", "description_en": null, "description_ar": null, "price_min": 78, "price_max": null, "image": "/menu/Sandwiches/Zinger.jpeg", "rating": 5.0, "review_count": 1, "favorites_count": 3 },
+        { "id": "fahita-sw", "name_en": "Fahita", "name_ar": "فاهيتا", "description_en": null, "description_ar": null, "price_min": 78, "price_max": null, "image": "/menu/Sandwiches/Fahita.jpg", "rating": null, "review_count": 0, "favorites_count": 1 },
+        { "id": "shawerma-sw", "name_en": "Shawerma", "name_ar": "شاورما دجاج", "description_en": null, "description_ar": null, "price_min": 78, "price_max": null, "image": "/menu/Sandwiches/Shawerma.webp", "rating": null, "review_count": 0, "favorites_count": 1 },
+        { "id": "cheese-burger", "name_en": "Cheese Burger", "name_ar": "تشيز برجر", "description_en": null, "description_ar": null, "price_min": 75, "price_max": 100, "image": "/menu/Sandwiches/cheese-burger.jpg", "rating": null, "review_count": 0, "favorites_count": 1 },
+        { "id": "club-sandwich", "name_en": "Club Sandwich", "name_ar": "كلوب ساندوتش", "description_en": null, "description_ar": null, "price_min": 85, "price_max": null, "image": "/menu/Sandwiches/club-sandwich.jpg", "rating": null, "review_count": 0, "favorites_count": 4 },
+        { "id": "philadelphia", "name_en": "Philadelphia Steak", "name_ar": "ستيك فيلادلفيا", "description_en": null, "description_ar": null, "price_min": 95, "price_max": null, "image": "/menu/Sandwiches/philadelphia-steak.png", "rating": null, "review_count": 0, "favorites_count": 2 }
+      ]
+    },
+    {
+      "id": "italian-coffee",
+      "name_en": "Italian Coffee",
+      "name_ar": "قهوة إيطالي",
+      "items": [
+        { "id": "espresso", "name_en": "Espresso", "name_ar": "اسبريسو", "description_en": "90ml demitasse / 40ml double shot", "description_ar": null, "price_min": 45, "price_max": 60, "image": "/menu/Coffee/espresso.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "macchiato", "name_en": "Macchiato", "name_ar": "ميكاتو", "description_en": null, "description_ar": null, "price_min": 50, "price_max": 60, "image": "/menu/Coffee/Macchiato.webp", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "cappuccino", "name_en": "Cappuccino", "name_ar": "كابتشينو", "description_en": null, "description_ar": null, "price_min": 70, "price_max": null, "image": "/menu/Coffee/Cappuccino.webp", "rating": 4.8, "review_count": 64, "favorites_count": 22 },
+        { "id": "flat-white", "name_en": "Flat White", "name_ar": "فلات وايت", "description_en": null, "description_ar": null, "price_min": 65, "price_max": null, "image": "/menu/Coffee/flat-white.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "latte", "name_en": "Caffe Latte", "name_ar": "لاتيه", "description_en": null, "description_ar": null, "price_min": 70, "price_max": null, "image": "/menu/Coffee/caffe-latte.webp", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "iced-coffee",
+      "name_en": "Iced Coffee",
+      "name_ar": "قهوة مثلجة",
+      "items": [
+        { "id": "iced-latte", "name_en": "Iced Latte", "name_ar": "آيسد لاتيه", "description_en": null, "description_ar": null, "price_min": 75, "price_max": null, "image": "/menu/Iced-Coffee/iced-coffee.webp", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "iced-caramel", "name_en": "Iced Caramel Macchiato", "name_ar": "آيسد كراميل ميكاتو", "description_en": null, "description_ar": null, "price_min": 85, "price_max": null, "image": "/menu/Iced-Coffee/iced-caramel-macchiato.webp", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "iced-spanish", "name_en": "Iced Spanish Latte", "name_ar": "آيسد سبانيش لاتيه", "description_en": null, "description_ar": null, "price_min": 90, "price_max": null, "image": "/menu/Iced-Coffee/iced-spanish-latte.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "cold-brew", "name_en": "Cold Brew", "name_ar": "قهوة باردة", "description_en": null, "description_ar": null, "price_min": 80, "price_max": null, "image": "/menu/Iced-Coffee/cold-brew.jpg", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "soda-soft-drinks",
+      "name_en": "Soda & Soft Drinks",
+      "name_ar": "مشروبات غازية",
+      "items": [
+        { "id": "cola", "name_en": "Cola", "name_ar": "كولا", "description_en": null, "description_ar": null, "price_min": 30, "price_max": null, "image": "/menu/soft-drinks/Cola.avif", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "sparkling-water", "name_en": "Sparkling Water", "name_ar": "مياه غازية", "description_en": null, "description_ar": null, "price_min": 25, "price_max": null, "image": "/menu/soft-drinks/sparkling-water.webp", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "sprite", "name_en": "Sprite", "name_ar": "سبرايت", "description_en": null, "description_ar": null, "price_min": 30, "price_max": null, "image": "/menu/soft-drinks/Sprite.webp", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "red-bull", "name_en": "Energy Drink", "name_ar": "مشروب طاقة", "description_en": null, "description_ar": null, "price_min": 55, "price_max": null, "image": "/menu/soft-drinks/energy-drink.webp", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "fresh-juice-smoothie",
+      "name_en": "Fresh Juice & Smoothie",
+      "name_ar": "عصائر طازجة",
+      "items": [
+        { "id": "mango-juice", "name_en": "Fresh Mango Juice", "name_ar": "عصير مانجو طازج", "description_en": null, "description_ar": null, "price_min": 60, "price_max": 80, "image": "/menu/smoothies/mango-juice.avif", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "strawberry-smoothie", "name_en": "Strawberry Smoothie", "name_ar": "سموذي فراولة", "description_en": null, "description_ar": null, "price_min": 70, "price_max": null, "image": "/menu/smoothies/strawberry-smoothie.jpeg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "lemon-mint", "name_en": "Lemon Mint", "name_ar": "ليمون نعناع", "description_en": null, "description_ar": null, "price_min": 50, "price_max": null, "image": "/menu/smoothies/lemon-mint.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "avocado-juice", "name_en": "Avocado Juice", "name_ar": "عصير أفوكادو", "description_en": null, "description_ar": null, "price_min": 90, "price_max": null, "image": "/menu/smoothies/avocado-juice.webp", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "milkshake",
+      "name_en": "Milkshake",
+      "name_ar": "ميلك شيك",
+      "items": [
+        { "id": "oreo-shake", "name_en": "Oreo Milkshake", "name_ar": "ميلك شيك أوريو", "description_en": null, "description_ar": null, "price_min": 85, "price_max": null, "image": "/menu/Milkshake/oreo-milkshake.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "nutella-shake", "name_en": "Nutella Milkshake", "name_ar": "ميلك شيك نوتيلا", "description_en": null, "description_ar": null, "price_min": 90, "price_max": null, "image": "/menu/Milkshake/nutella-milkshake.webp", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "chocolate-shake", "name_en": "Chocolate Milkshake", "name_ar": "ميلك شيك شوكولاتة", "description_en": null, "description_ar": null, "price_min": 85, "price_max": null, "image": "/menu/Milkshake/chocolate-milkshake.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "strawberry-shake", "name_en": "Strawberry Milkshake", "name_ar": "ميلك شيك فراولة", "description_en": null, "description_ar": null, "price_min": 85, "price_max": null, "image": "/menu/Milkshake/strawberry-milkshake.webp", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "ice-cream-fruit-salad",
+      "name_en": "Ice Cream & Fruit Salad",
+      "name_ar": "آيس كريم وسلطة فواكه",
+      "items": [
+        { "id": "fruit-salad", "name_en": "Fresh Fruit Salad", "name_ar": "سلطة فواكه طازجة", "description_en": null, "description_ar": null, "price_min": 70, "price_max": 100, "image": "/menu/ice-cream/fresh-fruit-salad.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "vanilla-scoop", "name_en": "Vanilla Ice Cream", "name_ar": "آيس كريم فانيليا", "description_en": null, "description_ar": null, "price_min": 45, "price_max": null, "image": "/menu/ice-cream/vanilla-ice-cream.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "chocolate-scoop", "name_en": "Chocolate Ice Cream", "name_ar": "آيس كريم شوكولاتة", "description_en": null, "description_ar": null, "price_min": 45, "price_max": null, "image": "/menu/ice-cream/chocolate-ice-cream.webp", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "cocktails-mocktails",
+      "name_en": "Cocktails",
+      "name_ar": "كوكتيلات",
+      "items": [
+        { "id": "virgin-mojito", "name_en": "Virgin Mojito", "name_ar": "موهيتو بدون كحول", "description_en": null, "description_ar": null, "price_min": 75, "price_max": null, "image": "/menu/Cocktails/virgin-mojito.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "blue-lagoon", "name_en": "Blue Lagoon", "name_ar": "بلو لagoon", "description_en": null, "description_ar": null, "price_min": 80, "price_max": null, "image": "/menu/Cocktails/blue-lagoon.webp", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "pina-colada", "name_en": "Pina Colada Mocktail", "name_ar": "پinا كولاda", "description_en": null, "description_ar": null, "price_min": 85, "price_max": null, "image": "/menu/Cocktails/ina-colada-mocktail.jpg", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "hot-beverages",
+      "name_en": "Hot Beverages",
+      "name_ar": "مشروبات ساخنة",
+      "items": [
+        { "id": "hot-chocolate", "name_en": "Hot Chocolate", "name_ar": "شوكولاتة ساخنة", "description_en": null, "description_ar": null, "price_min": 65, "price_max": null, "image": null, "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "moroccan-tea", "name_en": "Moroccan Tea", "name_ar": "شاي مغربي", "description_en": null, "description_ar": null, "price_min": 40, "price_max": null, "image": "/menu/hot-beverages/moroccan-tea.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "english-tea", "name_en": "English Tea", "name_ar": "شاي إنجليزي", "description_en": null, "description_ar": null, "price_min": 30, "price_max": null, "image": "/menu/hot-beverages/english-tea.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "karak-tea", "name_en": "Karak Tea", "name_ar": "شاي كرك", "description_en": null, "description_ar": null, "price_min": 45, "price_max": null, "image": "/menu/hot-beverages/karak-tea.webp", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name_en": "Desserts",
+      "name_ar": "حلويات",
+      "items": [
+        { "id": "umm-ali", "name_en": "Umm Ali", "name_ar": "أم علي", "description_en": "Traditional Egyptian bread pudding", "description_ar": null, "price_min": 65, "price_max": null, "image": "/menu/Desserts/umm-ali.webp", "rating": 4.9, "review_count": 14, "favorites_count": 10 },
+        { "id": "kunafa", "name_en": "Kunafa", "name_ar": "كنافة", "description_en": null, "description_ar": null, "price_min": 75, "price_max": null, "image": "/menu/Desserts/kunafa.jpeg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "basbousa", "name_en": "Basbousa", "name_ar": "بسبوسة", "description_en": null, "description_ar": null, "price_min": 55, "price_max": null, "image": "/menu/Desserts/Basbousa.jpeg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "cheesecake", "name_en": "Cheesecake", "name_ar": "تشيز كيك", "description_en": null, "description_ar": null, "price_min": 80, "price_max": null, "image": "/menu/Desserts/cheesecake.webp", "rating": 4.6, "review_count": 19, "favorites_count": 15 }
+      ]
+    },
+    {
+      "id": "waffles-crepes",
+      "name_en": "Waffles & Crepes",
+      "name_ar": "وافل وكريب",
+      "items": [
+        { "id": "nutella-waffle", "name_en": "Nutella Waffle", "name_ar": "وافل نوتيلا", "description_en": null, "description_ar": null, "price_min": 95, "price_max": null, "image": "/menu/Waffles/nutella-waffle.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "chicken-crepe", "name_en": "Chicken Crepe", "name_ar": "كريب دجاج", "description_en": null, "description_ar": null, "price_min": 90, "price_max": null, "image": "/menu/Waffles/chicken-crepe.png", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "lotus-waffle", "name_en": "Lotus Waffle", "name_ar": "وافل لوتس", "description_en": null, "description_ar": null, "price_min": 95, "price_max": null, "image": "/menu/Waffles/lotus-waffle.jpg", "rating": null, "review_count": 0, "favorites_count": 0 },
+        { "id": "nutella-crepe", "name_en": "Nutella Crepe", "name_ar": "كريب نوتيلا", "description_en": null, "description_ar": null, "price_min": 85, "price_max": null, "image": "/menu/Waffles/nutella-crepe.jpg", "rating": null, "review_count": 0, "favorites_count": 0 }
+      ]
+    }
+  ]
+}
